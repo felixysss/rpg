@@ -26,7 +26,6 @@ body{
 }
 
 
-
 #heros{
     display:flex;
     flex-direction: row;
@@ -52,6 +51,102 @@ body{
 #hero4 {
     width: 150px;
     height: 200px;
+}
+
+#PVhero1{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top: 25px;
+}
+#PChero1{
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:45px;
+}
+
+#PVhero2{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:80px
+}
+#PChero2{
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:100px;
+}
+
+#PVhero3{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:135px
+}
+#PChero3{
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:155px;
+}
+
+#PVhero4{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:190px
+}
+#PChero4{
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 80px;
+    top:210px;
+}
+
+#nomHero1{
+    color: white;
+    position: fixed;
+    left: 20px;
+    top:35px;
+}
+
+#nomHero2{
+    color: white;
+    position: fixed;
+    left: 20px;
+    top:85px;
+}
+
+#nomHero3{
+    color: white;
+    position: fixed;
+    left: 20px;
+    top:145px;
+}
+
+#nomHero4{
+    color: white;
+    position: fixed;
+    left: 20px;
+    top:200px;
 }
 
 
@@ -84,7 +179,7 @@ body{
 
 
 #PVmonstre1 {
-    color: white;
+    color: lightgreen;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -93,7 +188,7 @@ body{
 }
 
 #PVmonstre2 {
-    color: white;
+    color: lightgreen;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -102,7 +197,7 @@ body{
 }
 
 #PVmonstre3 {
-    color: white;
+    color: lightgreen;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -110,3 +205,21 @@ body{
     right:50px;
 }
 
+#nomMonstre1{
+    color: white;
+    position: fixed;
+    left: 1070px;
+    top:50px;
+}
+#nomMonstre2{
+    color: white;
+    position: fixed;
+    left: 1070px;
+    top:150px;
+}
+#nomMonstre3{
+    color: white;
+    position: fixed;
+    left: 1070px;
+    top:250px;
+}

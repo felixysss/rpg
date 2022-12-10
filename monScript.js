@@ -20,8 +20,10 @@ défense.onclick = function() {
 }
 pouvoir.onclick = function() {
     PVmonstre1.innerHTML = PVmonstre1.innerHTML-15;
-    afficheAction.innerHTML = "Vous lancez une attaque spéciale sur le monstre 1!";
+    PChero1.innerHTML = PChero1.innerHTML-25;
+    afficheAction.innerHTML = "Vous lancez une boule de feu sur le monstre 1!";
 }
+
 
 if (PVmonstre1<0){
  console.log("mortMonstre1");
