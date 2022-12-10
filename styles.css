@@ -1,0 +1,112 @@
+body{
+    background-image: url("backround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#afficheAction{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:700px;
+    right:550px;
+}
+
+
+#actions { 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 750px;
+}
+
+
+
+#heros{
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    top: 420px;
+}
+
+#hero1 {
+    width: 150px;
+    height: 200px;
+}
+
+#hero2 {
+    width: 150px;
+    height: 200px;
+}
+
+#hero3 {
+    width: 150px;
+    height: 200px;
+}
+
+#hero4 {
+    width: 150px;
+    height: 200px;
+}
+
+
+
+
+
+#monstres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 800px; 
+    top: 450px;
+}
+
+#monstre1{
+    width: 150px;
+    height:150px;
+}
+
+#monstre2{
+    width: 150px;
+    height:150px;
+}
+
+#monstre3{
+    width: 150px;
+    height:150px;
+}
+
+
+#PVmonstre1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:50px;
+    right:50px;
+}
+
+#PVmonstre2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:150px;
+    right:50px;
+}
+
+#PVmonstre3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:250px;
+    right:50px;
+}
+
